@@ -46,7 +46,10 @@ public class Boss
 
         Debug.Log("魔法攻撃をした。残りMPは" + mp);
 
-
+        else
+        {
+            Debug.Log("MPが不足しています");
+        }
 
 
 
